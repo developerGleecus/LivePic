@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+  
+    <TableLayout
+        android:id="@+id/button_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/grey_back"
+        android:padding="4dp"
+        android:stretchColumns="*" >
+
+        <TableRow
+            android:id="@+id/tablerowButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <ImageView
+                android:id="@+id/xdeletebutton"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:src="@drawable/xdeletebutton" />
+
+            <ImageView
+                android:id="@+id/xeditbutton"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:src="@drawable/xeditbutton" />
+
+            <ImageView
+                android:id="@+id/xmovebutton"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:layout_marginTop="5dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:src="@drawable/xmovebutton" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
